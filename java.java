@@ -1,4 +1,4 @@
-import java.util.Scanner;
+1
 
 public class java {
 
@@ -82,20 +82,23 @@ public class java {
          * suma1 = numero2 + i;
          * System.out.println(suma + " " + suma1);
          * }
+         * int numero = 2;
+         * System.out.println("Ingrese un numero");
+         * 
+         * if (numero % 2 == 0) {
+         * for (int i = 2; i <= numero; i++) {
+         * if (numero % i == 0 && numero != i) {
+         * System.out.println("El numero no es primo");
+         * break;
+         * } else if (numero == i) {
+         * System.out.println("El numero es primo");
+         * }
+         * }
+         * }
          */
-
-        int numero = 2;
-        System.out.println("Ingrese un numero");
-
-        if (numero % 2 == 0) {
-            for (int i = 2; i <= numero; i++) {
-                if (numero % i == 0 && numero != i) {
-                    System.out.println("El numero no es primo");
-                    break;
-                } else if (numero == i) {
-                    System.out.println("El numero es primo");
-                }
-            }
-        }
+        
+         int numero;
+            System.out.println("Ingrese un numero"); 
     }
+
 }
