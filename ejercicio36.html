@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web</title>
+    <meta name="descripcion" content="esto es lo que aparece en la descripcion en el navegador">
+    <meta name="keywords" content="ejmplo, plantilla, hmtl, css, jaca script, etc">
+    <meta name="author" content="Angel">
+    <meta name="application-name" content="ejercicio34.html">
+    <meta name="generator" content="VSCode">
+    <link rel="icon" href="./assets/img/ra.png">
+</head>
+<body>
+    <h1>Formulario estructurado </h1>
+    <form method="post" action="send">
+        <fieldset>
+            <legend>Datos personales</legend>
+            Nombre de usuario <br>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            Apellidos <br>
+            <input type="text" name="apellidos" id="apellidos"> <br> 
+            Contraseña <br>
+            <input type="password" name="contrasena" id="contrasena"> <br>
+            DNI <br>
+            <input type="text" name="dni" id="dni"> <br>
+            Sexo <br>
+            <input type="radio" name="sexo" id="hombre" value="hombre"> Hombre <br>
+            <input type="radio" name="sexo" id="mujer" value="mujer"> Mujer <br> <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Otros datos</legend>
+            Incluir mi foto
+            <input type="file" name="foto" id="foto">
+            <br> <br>
+            <input type="checkbox" name="boletin" id="boletin">
+            Suscribirme al boletin de novedades
+        </fieldset>
+        <br> 
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar Formulario">
+     </form>
+</body>
+</html>
