@@ -1,4 +1,4 @@
-1
+import java.util.Scanner;
 
 public class java {
 
@@ -95,10 +95,60 @@ public class java {
          * }
          * }
          * }
+         * 
+         * PEDIR EL RADIO DE UN CIRCULO Y CALCULAR AREA Y PERIMETRO
+         * double radio;
+         * System.out.println("Ingrese el radio del circulo");
+         * radio = leer.nextDouble();
+         * double area = Math.PI * Math.pow(radio, 2);
+         * System.out.println("El area del circulo es: " + area);
+         * System.out.println("el perimetro del circulo es: " + 2 * Math.PI * radio);
+         * CALCULAS NOTA DE UN ALUMNOS
+         * int nota;
+         * System.out.println("Ingrese la nota del alumno");
+         * nota = leer.nextInt();
+         * if (nota > 5) {
+         * System.out.println("Aprobado");
+         * } else {
+         * System.out.println("Desaprobado");
+         * 
+         * }
+         * 
+         * JUBILADO
+         * int edad;
+         * System.out.println("Ingrese su edad");
+         * edad = leer.nextInt();
+         * if (edad > 65) {
+         * System.out.println("Es jubilado");
+         * } else {
+         * System.out.println("Todavia le queda a;os de trabajo    ");
+         * }
+         * CUAL ES EL NUMERO MAYOR Y CUAL ES MENOR
+         * int numer1;
+         * int numero2;
+         * int numero3;
+         * 
+         * System.out.println("Ingrese tres numeros ");
+         * numer1 = leer.nextInt();
+         * numero2 = leer.nextInt();
+         * numero3 = leer.nextInt();
+         * if (numer1 > numero2 && numer1 > numero3) {
+         * System.out.println("El numero mayor es: " + numer1);
+         * } else if (numero2 > numer1 && numero2 > numero3) {
+         * System.out.println("El numero mayor es: " + numero2);
+         * } else {
+         * System.out.println("El numero mayor es: " + numero3);
+         * }
          */
-        
-         int numero;
-            System.out.println("Ingrese un numero"); 
+        int numero1;
+        int numero2;
+        System.out.println("Ingrese dos numeros");
+        numero1 = leer.nextInt();
+        numero2 = leer.nextInt();
+
+        if () { 
+            
+        }
     }
 
 }
