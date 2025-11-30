@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Roblox Tools</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #050816;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      width: 100%;
+      max-width: 900px;
+      padding: 24px;
+    }
+    .card {
+      background: #0f172a;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 20px 40px rgba(0,0,0,.6);
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+    p {
+      margin-bottom: 16px;
+      color: #cbd5f5;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 18px;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      background: #22c55e;
+      color: #020617;
+      font-weight: 600;
+      margin-top: 8px;
+    }
+    .grid {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+    .tool {
+      background: #020617;
+      border-radius: 12px;
+      padding: 16px;
+      border: 1px solid #1e293b;
+    }
+    .tool h2 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+    .tool p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    .tool button {
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Roblox Tools Panel</h1>
+      <p>Panel de utilidades para Roblox (ejemplo). Aquí puedes listar generadores, herramientas o guías.</p>
+      <button class="btn" onclick="alert('Aquí iría tu acción real')">
+        Empezar
+      </button>
+
+      <div class="grid">
+        <div class="tool">
+          <h2>Herramienta 1</h2>
+          <p>Descripción corta de lo que hace esta página / herramienta.</p>
+          <button class="btn" onclick="abrirPagina('tool1')">Abrir</button>
+        </div>
+        <div class="tool">
+          <h2>Herramienta 2</h2>
+          <p>Otra página dentro del mismo proyecto.</p>
+          <button class="btn" onclick="abrirPagina('tool2')">Abrir</button>
+        </div>
+        <div class="tool">
+          <h2>Guía</h2>
+          <p>Texto, tutoriales o links externos para tus usuarios.</p>
+          <button class="btn" onclick="abrirPagina('guia')">Ver guía</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function abrirPagina(nombre) {
+      // Aquí puedes cambiar por rutas reales tipo /tool1, /tool2, etc.
+      alert("Aquí abrirías la página: " + nombre);
+    }
+  </script>
+</body>
+</html>

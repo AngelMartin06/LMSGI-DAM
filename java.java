@@ -140,15 +140,7 @@ public class java {
          * System.out.println("El numero mayor es: " + numero3);
          * }
          */
-        int numero1;
-        int numero2;
-        System.out.println("Ingrese dos numeros");
-        numero1 = leer.nextInt();
-        numero2 = leer.nextInt();
 
-        if () { 
-            
-        }
     }
 
 }
