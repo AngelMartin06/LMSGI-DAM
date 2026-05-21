@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 40px;
+}
+
+/* contenedor */
+.contenedor {
+    width: 900px;
+
+    position: relative;
+
+    height: 250px;
+}
+
+/* estilos generales */
+.caja {
+    width: 140px;
+    height: 140px;
+
+    color: white;
+
+    font-size: 30px;
+
+    position: absolute;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+}
+
+/* cajas */
+.one {
+    background-color: red;
+
+    left: 0;
+    top: 40px;
+}
+
+.two {
+    background-color: blue;
+
+    left: 180px;
+    top: 70px;
+
+    z-index: 2;
+}
+
+.three {
+    background-color: red;
+
+    left: 300px;
+    top: 40px;
+}
+
+.four {
+    background-color: red;
+
+    left: 440px;
+    top: 40px;
+}

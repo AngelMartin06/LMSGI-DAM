@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: white;
+}
+
+.carrito105 {
+    width: 760px;
+    margin: 20px auto;
+    background-color: #7298ec;
+    padding: 10px 14px 18px 14px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 10px 0;
+    color: #213c78;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+th {
+    background-color: #8eb2f2;
+    color: white;
+    font-size: 12px;
+    padding: 4px 0;
+    border: 2px solid #7298ec;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.item {
+    background-color: #edf0f5;
+    border-radius: 4px;
+    text-align: center;
+    padding: 6px 4px 0 4px;
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.4) inset;
+}
+
+.foto {
+    width: 72px;
+    height: 52px;
+    margin: 0 auto 6px auto;
+    background: linear-gradient(135deg, #ffffff 0%, #d8d8d8 100%);
+    border-radius: 8px;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+    color: #396a4a;
+}
+
+span {
+    display: block;
+    margin-top: 4px;
+    background-color: #56aa51;
+    color: white;
+    font-size: 11px;
+    padding: 3px 0;
+    border-radius: 2px;
+}

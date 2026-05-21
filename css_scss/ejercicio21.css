@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 430px;
+    background-image: linear-gradient(rgba(40, 30, 30, 0.7), rgba(40, 30, 30, 0.7)),
+        url("https://picsum.photos/1200/700");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.linea {
+    width: 45px;
+    height: 3px;
+    background-color: tomato;
+    margin: 20px auto;
+}
+
+.hero p {
+    font-size: 14px;
+}
+
+.hero a {
+    display: inline-block;
+    margin-top: 25px;
+    background-color: #ff4e45;
+    color: white;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.info {
+    background-color: #ff4e45;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.info h2 {
+    font-size: 22px;
+}
+
+.info p {
+    width: 600px;
+    margin: 20px auto;
+    font-size: 13px;
+}
+
+.info a {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: bold;
+}

@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+.contenedor106 {
+    width: 390px;
+    margin: 20px auto;
+}
+
+.cards106 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.card106 {
+    width: 118px;
+    border: 1px solid #ececec;
+    background: white;
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+.foto {
+    width: 100%;
+    height: 78px;
+    margin-bottom: 4px;
+}
+
+.manzana {
+    background: radial-gradient(circle at 45% 35%, #ffb0ba 0%, #d71f34 55%, #8c0c18 100%);
+}
+
+.naranja {
+    background: radial-gradient(circle at center, #fff6b8 0 18px, #ffca2e 19px 32px, #f39b00 33px 100%);
+}
+
+.banana {
+    background: linear-gradient(135deg, #fffef0 0%, #ffe16a 50%, #d1a100 100%);
+}
+
+h3 {
+    margin: 0;
+    font-size: 11px;
+    color: #444;
+    font-weight: normal;
+}
+
+.card106 p {
+    margin: 2px 0 6px 0;
+    font-size: 8px;
+    color: #777;
+}
+
+.card106 a {
+    display: inline-block;
+    background: #efcd57;
+    color: white;
+    font-size: 7px;
+    padding: 4px 6px;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    margin: 8px 0;
+    color: #444;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10px;
+    color: #555;
+}
+
+th,
+td {
+    border: 1px solid #ececec;
+    padding: 5px 4px;
+    text-align: center;
+}
+
+th {
+    font-weight: normal;
+}
+
+.remove {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    background: #e65a67;
+    color: white;
+    font-size: 9px;
+}
+
+.mini {
+    width: 24px;
+    height: 18px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    background: #54a6e6;
+    color: white;
+    font-size: 9px;
+}
+
+.acciones106 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.clear {
+    border: none;
+    background: #4cb2c7;
+    color: white;
+    font-size: 9px;
+    padding: 4px 16px;
+}
+
+.total106 {
+    width: 88px;
+    text-align: center;
+    font-size: 10px;
+    color: #555;
+}
+
+.total106 strong {
+    display: block;
+    font-size: 16px;
+    margin: 4px 0;
+}
+
+.total106 button {
+    width: 100%;
+    border: none;
+    background: #31a542;
+    color: white;
+    font-size: 10px;
+    padding: 3px 0;
+}

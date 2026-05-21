@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+/* enlace normal */
+.normal {
+    color: blue;
+}
+
+/* enlace rojo */
+.rojo {
+    color: red;
+}
+
+/* enlace sin subrayado */
+.sin-subrayado {
+    color: blue;
+    text-decoration: none;
+}
+
+/* enlace importante */
+.importante {
+    color: blue;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* enlace raro */
+.raro {
+    color: blue;
+    font-style: italic;
+    text-decoration: underline overline;
+}

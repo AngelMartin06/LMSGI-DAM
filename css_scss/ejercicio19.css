@@ -1,0 +1,25 @@
+body {
+    font-family: Georgia, serif;
+    padding: 40px;
+}
+
+/* título principal */
+h1 {
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* párrafo */
+p {
+    width: 700px;
+    font-size: 22px;
+    line-height: 1.2;
+    margin-bottom: 180px;
+}
+
+/* título final */
+h2 {
+    font-size: 45px;
+    font-weight: bold;
+}

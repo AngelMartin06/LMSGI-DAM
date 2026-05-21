@@ -1,0 +1,21 @@
+body{background:#e6e6e6;font-family:Arial;}
+h2{text-align:center;color:red;}
+
+.layout{
+  width:800px;
+  margin:30px auto;
+  display:grid;
+  grid-template-columns:1fr 2fr 1fr;
+  grid-template-rows:70px 200px 80px;
+  gap:10px;
+}
+
+header{grid-column:1/4;background:#29b6f6;}
+.left{background:#ff5722;}
+main{background:#32cd32;}
+.right{background:#ffd600;}
+footer{grid-column:1/4;background:#1e88e5;}
+
+header, .left, main, .right, footer{
+  display:flex;justify-content:center;align-items:center;
+}

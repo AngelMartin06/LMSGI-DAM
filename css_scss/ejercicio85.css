@@ -1,0 +1,38 @@
+body {
+    font-family: serif;
+    margin: 20px;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 24px;
+}
+
+a {
+    color: blue;
+}
+
+.sinborde {
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 1px;
+}
+
+.mucho {
+    text-decoration-line: underline;
+    text-decoration-thickness: 4px;
+}
+
+.separado {
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+}
+
+.discontinuo {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}

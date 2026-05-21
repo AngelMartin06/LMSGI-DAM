@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+}
+
+/* grid principal */
+.grid-principal {
+    width: 800px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 2fr;
+
+    gap: 2px;
+}
+
+/* celdas */
+.celda {
+    background-color: #748795;
+
+    color: white;
+
+    padding: 35px;
+
+    font-size: 28px;
+}
+
+/* celda grande */
+.grande {
+    grid-row: span 2;
+}
+
+/* grid interno */
+.grid-anidado {
+    background-color: #dcd7ef;
+
+    padding: 15px;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 2px;
+}
+
+/* título */
+.titulo {
+    grid-column: span 2;
+
+    text-align: center;
+
+    padding: 20px;
+
+    font-size: 30px;
+
+    color: #444;
+
+    background-color: #dcd7ef;
+}
+
+/* listas */
+.item {
+    background-color: #e8e4f6;
+
+    padding: 30px;
+
+    text-align: center;
+
+    font-size: 26px;
+
+    color: #555;
+}

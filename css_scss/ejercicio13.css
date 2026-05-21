@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+/* enlace 1 */
+.enlace1 {
+    color: red;
+}
+
+/* enlace 2 */
+.enlace2 {
+    background-color: red;
+    color: white;
+    padding: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* enlace 3 */
+.enlace3 {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+/* enlace 4 */
+.enlace4 {
+    color: red;
+    text-decoration: underline overline;
+}
+
+/* enlace 5 */
+.enlace5 {
+    color: red;
+    font-weight: bold;
+}

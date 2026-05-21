@@ -1,40 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-   <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina web</title>
-    <meta name="descripcion" content="esto es lo que aparece en la descripcion en el navegador">
-    <meta name="keywords" content="ejmplo, plantilla, hmtl, css, jaca script, etc">
-    <meta name="author" content="Angel">
-    <meta name="application-name" content="ejercicio106.html">
-    <meta name="generator" content="VSCode">
-    <link rel="icon" href="./assets/img/ra.png">
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <link rel="stylesheet" href="css_scss/ejercicio106.css">
 </head>
 <body>
-    <div style="display: flex; justify-content: center; align-items: center;">
-    <h1 style="color: green;">Himno del Real Betis Balompie (letra)</h1>
+    <div class="contenedor106">
+        <div class="cards106">
+            <div class="card106">
+                <div class="foto manzana"></div>
+                <h3>Apple</h3>
+                <p>Price: $3</p>
+                <a href="#">Product Add to Shopping Cart</a>
+            </div>
+            <div class="card106">
+                <div class="foto naranja"></div>
+                <h3>Orange</h3>
+                <p>Price: $4</p>
+                <a href="#">Product Add to Shopping Cart</a>
+            </div>
+            <div class="card106">
+                <div class="foto banana"></div>
+                <h3>Bananas</h3>
+                <p>Price: $5</p>
+                <a href="#">Product Add to Shopping Cart</a>
+            </div>
+        </div>
 
+        <h2>Shopping Cart</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Remove</th>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><span class="remove">x</span></td>
+                    <td><div class="mini manzana"></div></td>
+                    <td>Apple</td>
+                    <td><span class="btn">-</span> 1 <span class="btn">+</span></td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><span class="remove">x</span></td>
+                    <td><div class="mini naranja"></div></td>
+                    <td>Orange</td>
+                    <td><span class="btn">-</span> 1 <span class="btn">+</span></td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><span class="remove">x</span></td>
+                    <td><div class="mini banana"></div></td>
+                    <td>Bananas</td>
+                    <td><span class="btn">-</span> 1 <span class="btn">+</span></td>
+                    <td>5</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="acciones106">
+            <button class="clear">Clear</button>
+            <div class="total106">
+                <span>Total</span>
+                <strong>$ 12.00</strong>
+                <button>Buy</button>
+            </div>
+        </div>
     </div>
-    <blockquote style="color: green;">
-    Aquí estamos todos pa' cantarte tu canción estamos apiñados como balas de cañón y es que no hay quien pueda con esta afición y aunque último estuvieras siempre te ven campeón. Beeeeeetis, Beeeeeetis, Beeeeeetis. Ahora Betis, ahora, no dejes de atacar ahora Betis, ahora porque el gol ya va a llegar. Beeeeeetis, Beeeeeetis, Beeeeeetis.
-    </blockquote>
-
-    <blockquote style="color: green;">
-        Beeeeeetis, Beeeeeetis, Beeeeeetis. Ahora Betis, ahora, no dejes de atacar ahora Betis, ahora porque el gol ya va a llegar. Beeeeeetis, Beeeeeetis, Beeeeeetis.
-    </blockquote>
-
-    <blockquote style="color: green;">
-    Hay una leyenda que recorre el mundo entero, verde y blanco sus colores, blanco y verde es el sendero, luz en la mañana y en la noche quejío y quiebro. Betis musho Betis, en el mundo lo que más quiero. Luz en la mañana y en la noche quejío y quiebro. Betis musho Betis, en este mundo lo que más quiero.
-    </blockquote>
-
-    <blockquote style="color: green;">
-    Betis musho Betis, en el mundo lo que más quiero. Luz en la mañana y en la noche quejío y quiebro. Betis musho Betis, en este mundo lo que más quiero.
-    </blockquote>
-
-    <blockquote style="color: green;">
-    Beeeeeetis, Beeeeeetis, Beeeeeetis Ahora Betis, ahora, no dejes de atacar, ahora Betis ahora porque el gol ya va a llegar. Beeeeeetis, Beeeeeetis, Beeeeeetis, Beeeeeetis, Beeeeeetis.
-    </blockquote>
-
 </body>
 </html>

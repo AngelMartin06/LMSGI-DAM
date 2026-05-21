@@ -1,0 +1,104 @@
+body {
+    background-color: #e6e6e6;
+    font-family: Arial, sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    color: red;
+}
+
+/* Centrado */
+.contenedor {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Caja verde */
+.formulario {
+    background-color: #9dbb2f;
+    padding: 25px;
+    width: 380px;
+    border-radius: 10px;
+}
+
+/* Títulos secciones */
+.seccion {
+    color: purple;
+    margin-top: 10px;
+}
+
+/* Campos */
+.campo {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Inputs */
+input, textarea {
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #c6d77a;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* Tarjetas */
+.tarjetas {
+    background-color: #a8c63d;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.sub {
+    font-weight: bold;
+    text-align: center;
+}
+
+.radio {
+    display: block;
+    margin: 5px 0;
+}
+
+.visa {
+    color: blue;
+}
+
+.amex {
+    color: red;
+}
+
+.master {
+    color: orange;
+}
+
+/* Botón */
+.boton {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #f4a6a6;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f08080;
+}

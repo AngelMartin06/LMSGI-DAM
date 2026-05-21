@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(36, 209, 189);
+}
+
+/* todos los párrafos */
+p {
+    color: blue;
+}
+
+/* párrafo segundo */
+.segundo {
+    color: #FFD700;
+}
+
+/* párrafo tercero */
+.tercero {
+    color: hsl(0, 100%, 50%);
+    background-color: hsla(93, 78%, 58%, 0.8);
+}
+
+/* enlace */
+a {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: blue;
+}

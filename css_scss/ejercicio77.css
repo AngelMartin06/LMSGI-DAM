@@ -1,0 +1,33 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 12px 0 20px 35px;
+    font-size: 28px;
+}
+
+.bloque {
+    width: 185px;
+    margin-left: 35px;
+    margin-bottom: 14px;
+    padding: 6px 8px;
+    font-size: 18px;
+    line-height: 1.05;
+    box-sizing: border-box;
+}
+
+.bloque1,
+.bloque3 {
+    background-color: #d8d89b;
+}
+
+.bloque2 {
+    background-color: #aeeef1;
+}
+
+span {
+    color: magenta;
+}

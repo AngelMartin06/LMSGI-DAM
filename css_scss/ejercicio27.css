@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+}
+
+/* caja redondeada */
+.caja {
+    width: 250px;
+    padding: 20px;
+
+    border: 8px solid #f04b3a;
+    border-radius: 35px;
+}
+
+/* imagen */
+.caja img {
+    width: 100%;
+    display: block;
+}

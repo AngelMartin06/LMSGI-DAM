@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+/* caja 1 */
+.caja1 {
+    width: 900px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+    border-top: 3px dashed green;
+    border-right: 3px dashed orange;
+    border-bottom: 3px dotted red;
+    border-left: 3px dotted blue;
+}
+
+/* caja 2 */
+.caja2 {
+    width: 900px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+    border-top: 8px solid cyan;
+    border-right: 8px solid black;
+    border-bottom: 8px solid white;
+    border-left: 8px solid black;
+}
+
+/* caja 3 exterior */
+.caja3 {
+    width: 900px;
+    padding: 15px;
+    margin-bottom: 30px;
+
+    border-top: 3px dashed green;
+    border-right: 3px dashed orange;
+    border-bottom: 3px dotted red;
+    border-left: 3px dotted blue;
+}
+
+/* caja interna */
+.interna {
+    padding: 20px;
+    text-align: center;
+
+    border-top: 8px solid cyan;
+    border-right: 8px solid black;
+    border-bottom: 8px solid white;
+    border-left: 8px solid black;
+}
+
+/* cajas anidadas */
+.contenedor {
+    width: 900px;
+    padding: 10px;
+    border: 2px solid gray;
+}
+
+.nivel1 {
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.nivel2 {
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.nivel3 {
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.nivel4 {
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.nivel5 {
+    border: 2px solid gray;
+    padding: 20px;
+    text-align: center;
+}

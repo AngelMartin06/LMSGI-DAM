@@ -1,0 +1,30 @@
+body {
+    font-family: serif;
+    margin: 20px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 132px;
+}
+
+.menu li {
+    border: 2px solid black;
+    border-bottom: none;
+}
+
+.menu li:last-child {
+    border-bottom: 2px solid black;
+}
+
+.menu a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #7fa5b1;
+    font-size: 24px;
+    padding: 4px 0 6px 0;
+}

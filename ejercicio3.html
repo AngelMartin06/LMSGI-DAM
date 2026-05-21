@@ -1,25 +1,99 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World Wide Web</title>
-    <meta name="descripcion" content="esto es lo que aparece en la descripcion en el navegador">
-    <meta name="keywords" content="ejmplo, plantilla, hmtl, css, jaca script, etc">
-    <meta name="author" content="Angel">
-    <meta name="application-name" content="ejercicio3.html">
-    <meta name="generator" content="VSCode">
-    <link rel="icon" href="./assets/img/ra.png">
-</head>
-<body>
-        <h1>Tim Berners-Lee</h1>
 
-        <p>Lorem, ipsum dolor sit amet consectetur <b>adipisicing</b> elit. Aut maiores nobis rerum ipsa deserunt? Maiores nihil neque quis aperiam animi. (<b>Animi</b>) fuga tempore <b>placeat</b>  velit distinctio eius molestiae cumque. Eos!</p>
-       <h2>Bibliografia</h2>
-       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam libero, obcaecati magni sed soluta natus esse labore <b>nesciunt</b> odio facere a corporis tempore quidem aperiam provident! Maiores soluta incidunt perspiciatis!</p>
-       <h2>Desarrollo de su carrera</h2>
-       <p>Lorem ipsum <b>dolor</b> sit amet consectetur adipisicing elit. Iste incidunt eveniet perferendis! Similique, modi culpa cupiditate minus mollitia ea sed fuga labore, asperiores vero ad veritatis alias rem ut quis. <br> <br>
-    Lorem, ipsum <b>consectetur</b>  adipisicing elit. Maxime, molestiae quas. Atque optio exercitationem ducimus incidunt. <br> <br>
-Lorem ipsum <b>dolor</b> , sit amet consectetur adipisicing elit. Soluta expedita minus dolor ( <b>HTTP</b> y <b>HTML</b> )  dolorem voluptatibus aliquam neque, pariatur ullam velit, saepe hic mollitia exercitationem molestiae esse iste deserunt fuga! Incidunt? <br><br>Fuente: <i>Wikipedia</i> </p>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>Ejercicio selectores CSS</title>
+
+    <style>
+        * {
+            font-family: "Open Sans", Arial, sans-serif;
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #494949;
+        }
+
+        p {
+            color: #666;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: 3em;
+        }
+
+        p.entradilla {
+            font-weight: bold;
+            font-size: 2em;
+        }
+
+        #noticia-principal p {
+            color: green;
+            padding: 1em;
+        }
+
+        p span {
+            background: yellowgreen;
+        }
+
+        #noticia-principal,
+        #noticia-secundaria {
+            background: pink;
+            border: 1px solid black;
+            padding: 2em;
+            border-radius: 10px;
+        }
+
+        p.entradilla a {
+            text-decoration: none;
+            color: orange;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="noticia-principal">
+        <h1><span>Ipsum</span> es simplemente <span>el texto</span> de relleno de las imprentas y archivos de texto.
+        </h1>
+        <a href="#">Lorem Ipsum</a>
+
+        <p class="entradilla">
+            Ha sido el texto de relleno estándar de las <a href="#">industrias</a> desde el año 1500
+        </p>
+
+        <p>
+            Ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor
+            (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló
+            de tal manera que logró hacer un libro de textos espécimen.
+        </p>
+
+        <p>
+            No sólo sobrevivió 500 años, sino que también ingresó como texto de relleno en documentos
+            electrónicos, quedando esencialmente igual al original.
+        </p>
+    </div>
+
+    <div id="noticia-secundaria">
+        <h1><span>El trozo</span> de texto estándar de Lorem Ipsum</h1>
+
+        <p class="entradilla">
+            Usado desde el año 1500 es <a href="#">producido</a> debajo por/a para aquellos interesados.
+        </p>
+
+        <p>
+            Las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" por Cicerón son también
+            reproducidas en su forma original exacta, acompañadas por versiones en Inglés de la traducción
+            realizada en 1914 por H. Rackham.
+        </p>
+
+        <p>
+            Usa un diccionario de mas de 200 palabras provenientes del latín, combinadas con estructuras muy
+            útiles de sentencias, para generar texto de que <span>Lorem Ipsum</span> aparezca razonable.
+        </p>
+    </div>
+
+</body>
+
 </html>

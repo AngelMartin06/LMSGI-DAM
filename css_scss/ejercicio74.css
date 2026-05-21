@@ -1,0 +1,104 @@
+body {
+    font-family: Georgia, serif;
+
+    padding: 40px;
+
+    color: #444;
+}
+
+/* logo */
+.logo {
+    width: 160px;
+    height: 80px;
+
+    border: 3px solid blue;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 35px;
+
+    color: #ff6600;
+
+    margin-bottom: 30px;
+}
+
+/* título */
+.titulo {
+    background-color: #f3e7d6;
+
+    padding: 15px;
+
+    font-size: 38px;
+
+    font-weight: bold;
+
+    color: brown;
+
+    width: 650px;
+
+    margin-bottom: 25px;
+}
+
+/* descripción */
+.descripcion {
+    font-size: 28px;
+
+    color: #2f5f63;
+
+    font-weight: bold;
+}
+
+/* títulos */
+h2 {
+    color: brown;
+
+    margin-top: 35px;
+}
+
+/* listas */
+ol {
+    color: brown;
+
+    font-size: 28px;
+
+    margin-left: 40px;
+}
+
+/* facebook */
+h3 {
+    color: purple;
+
+    margin-top: 40px;
+
+    font-size: 32px;
+}
+
+/* youtube */
+.youtube {
+    color: #5b4db2;
+
+    font-size: 26px;
+}
+
+/* línea */
+hr {
+    margin: 30px 0;
+}
+
+/* footer */
+h4 {
+    color: blue;
+
+    font-size: 28px;
+}
+
+.footer {
+    font-size: 28px;
+
+    font-weight: bold;
+}

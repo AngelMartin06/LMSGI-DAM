@@ -1,0 +1,138 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 80px;
+    height: 35px;
+    font-weight: bold;
+    border: 2px solid gray;
+}
+
+/* FILA TEAL */
+tr:nth-child(1) td:nth-child(1) {
+    color: teal;
+    background-color: white;
+}
+
+tr:nth-child(1) td:nth-child(2) {
+    color: red;
+    background-color: teal;
+}
+
+tr:nth-child(1) td:nth-child(3) {
+    color: green;
+    background-color: teal;
+}
+
+/* FILA RED */
+tr:nth-child(2) td:nth-child(1) {
+    color: red;
+    background-color: white;
+}
+
+tr:nth-child(2) td:nth-child(2) {
+    color: white;
+    background-color: red;
+}
+
+tr:nth-child(2) td:nth-child(3) {
+    color: green;
+    background-color: red;
+}
+
+/* FILA BLUE */
+tr:nth-child(3) td:nth-child(1) {
+    color: blue;
+    background-color: white;
+}
+
+tr:nth-child(3) td:nth-child(2) {
+    color: red;
+    background-color: blue;
+}
+
+tr:nth-child(3) td:nth-child(3) {
+    color: green;
+    background-color: blue;
+}
+
+/* FILA ORANGE */
+tr:nth-child(4) td:nth-child(1) {
+    color: orange;
+    background-color: white;
+}
+
+tr:nth-child(4) td:nth-child(2) {
+    color: orange;
+    background-color: red;
+}
+
+tr:nth-child(4) td:nth-child(3) {
+    color: orange;
+    background-color: green;
+}
+
+/* FILA PURPLE */
+tr:nth-child(5) td:nth-child(1) {
+    color: purple;
+    background-color: white;
+}
+
+tr:nth-child(5) td:nth-child(2) {
+    color: red;
+    background-color: purple;
+}
+
+tr:nth-child(5) td:nth-child(3) {
+    color: green;
+    background-color: purple;
+}
+
+/* FILA OLIVE */
+tr:nth-child(6) td:nth-child(1) {
+    color: olive;
+    background-color: white;
+}
+
+tr:nth-child(6) td:nth-child(2) {
+    color: red;
+    background-color: olive;
+}
+
+tr:nth-child(6) td:nth-child(3) {
+    color: green;
+    background-color: olive;
+}
+
+/* FILA FUCHSIA */
+tr:nth-child(7) td:nth-child(1) {
+    color: fuchsia;
+    background-color: white;
+}
+
+tr:nth-child(7) td:nth-child(2) {
+    color: red;
+    background-color: fuchsia;
+}
+
+tr:nth-child(7) td:nth-child(3) {
+    color: green;
+    background-color: fuchsia;
+}
+
+/* FILA GREEN */
+tr:nth-child(8) td:nth-child(1) {
+    color: green;
+    background-color: white;
+}
+
+tr:nth-child(8) td:nth-child(2) {
+    color: red;
+    background-color: green;
+}
+
+tr:nth-child(8) td:nth-child(3) {
+    color: green;
+    background-color: black;
+}

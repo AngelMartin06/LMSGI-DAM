@@ -1,0 +1,99 @@
+body {
+    background-color: #e6e6e6;
+    font-family: Arial, sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    color: red;
+}
+
+.contenedor {
+    width: 70%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+}
+
+/* FORMULARIO */
+.formulario {
+    list-style: none;
+    padding: 0;
+}
+
+/* Cada grupo */
+.formulario li {
+    margin-bottom: 20px;
+    padding: 15px;
+    transition: background 0.3s;
+}
+
+/* Hover grupo */
+.formulario li:hover {
+    background-color: #ffff99;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+label span {
+    color: red;
+}
+
+/* Inputs */
+input, select {
+    padding: 6px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+/* Focus input */
+input:focus, select:focus {
+    border: 2px solid #ff8800;
+    background-color: #ffffcc;
+    outline: none;
+}
+
+/* Filas en columnas */
+.fila {
+    display: flex;
+    gap: 10px;
+}
+
+.fila input,
+.fila select {
+    width: 50%;
+}
+
+/* Ayuda oculta */
+.ayuda {
+    display: none;
+    font-size: 13px;
+    color: #444;
+}
+
+/* Mostrar ayuda al pasar el ratón */
+.direccion:hover .ayuda {
+    display: block;
+}
+
+/* Botón */
+.boton {
+    text-align: right;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc;
+}

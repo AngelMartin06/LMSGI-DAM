@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 16px 0 0 54px;
+}
+
+.columnas112 {
+    display: flex;
+    gap: 28px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    position: relative;
+    margin-bottom: 8px;
+    padding-left: 28px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.gris, .gris::before { color: #9a9a9a; }
+.naranja, .naranja::before { color: #ff8a3c; }
+.azul, .azul::before { color: #4b98e6; }
+.verde, .verde::before { color: #57b95d; }
+.amarillo, .amarillo::before { color: #e4c42c; }
+.celeste, .celeste::before { color: #8fe7f0; }
+.rojo, .rojo::before { color: #e04a6c; }
+.morado, .morado::before { color: #b56be5; }
+.tierra, .tierra::before { color: #d4874b; }
+.volador, .volador::before { color: #89a9ff; }
+.rosa, .rosa::before { color: #ff6ebf; }
+.oliva, .oliva::before { color: #98b34e; }
+.ocre, .ocre::before { color: #c6ae74; }
+.indigo, .indigo::before { color: #6870cf; }
+.azul2, .azul2::before { color: #256ee6; }
+.oscuro, .oscuro::before { color: #5d5d67; }
+.metal, .metal::before { color: #8ea1ae; }
+.hada, .hada::before { color: #f39ce8; }
+
+.gris::before { background: #9a9a9a; }
+.naranja::before { background: #ff8a3c; }
+.azul::before { background: #4b98e6; }
+.verde::before { background: #57b95d; }
+.amarillo::before { background: #e4c42c; }
+.celeste::before { background: #8fe7f0; }
+.rojo::before { background: #e04a6c; }
+.morado::before { background: #b56be5; }
+.tierra::before { background: #d4874b; }
+.volador::before { background: #89a9ff; }
+.rosa::before { background: #ff6ebf; }
+.oliva::before { background: #98b34e; }
+.ocre::before { background: #c6ae74; }
+.indigo::before { background: #6870cf; }
+.azul2::before { background: #256ee6; }
+.oscuro::before { background: #5d5d67; }
+.metal::before { background: #8ea1ae; }
+.hada::before { background: #f39ce8; }

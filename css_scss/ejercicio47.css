@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+/* contenedor */
+.contenedor {
+    width: 350px;
+    height: 350px;
+
+    border: 2px dashed black;
+
+    position: relative;
+}
+
+/* estilos generales */
+.caja1,
+.caja2 {
+    width: 120px;
+    height: 100px;
+
+    position: absolute;
+
+    text-align: center;
+    line-height: 100px;
+
+    font-size: 45px;
+    font-weight: bold;
+
+    left: 40px;
+
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+/* caja rosa */
+.caja1 {
+    background-color: #f8c6d0;
+
+    top: 40px;
+
+    z-index: 2;
+}
+
+/* caja naranja */
+.caja2 {
+    background-color: #ff5a36;
+
+    top: 90px;
+
+    z-index: 1;
+}

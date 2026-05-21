@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+/* contenedor */
+.contenedor {
+    width: 900px;
+
+    background-color: #d3eb83;
+
+    padding: 15px;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+}
+
+/* cajas */
+.caja {
+    width: 150px;
+    height: 150px;
+
+    background-color: #6bb8de;
+
+    color: white;
+
+    font-size: 55px;
+    font-weight: bold;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}

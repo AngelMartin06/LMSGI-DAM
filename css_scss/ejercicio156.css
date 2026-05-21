@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+}
+
+.titulo {
+    text-align: center;
+    color: red;
+    margin: 20px 0;
+}
+
+/* Fondo con imagen */
+.fondo {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://picsum.photos/1200/800") no-repeat center center/cover;
+    position: relative;
+}
+
+/* Capa oscura encima */
+.fondo::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Caja principal */
+.contenedor-login {
+    position: relative;
+    display: flex;
+    width: 700px;
+    background-color: #5f6a6a;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+/* Panel izquierdo */
+.panel-izq {
+    width: 40%;
+    background-color: #7fa3a3;
+    padding: 30px;
+}
+
+.panel-izq label {
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+
+.panel-izq input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+.panel-izq button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: #e6cfc2;
+    border: none;
+    cursor: pointer;
+}
+
+.panel-izq button:hover {
+    background-color: #f2dcd1;
+}
+
+/* Panel derecho */
+.panel-der {
+    width: 60%;
+    padding: 40px;
+    text-align: center;
+    color: #dcdcdc;
+}
+
+.panel-der h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.panel-der hr {
+    border: 1px solid #999;
+    margin: 20px 0;
+}
+
+.volver {
+    margin-top: 10px;
+    font-size: 14px;
+}

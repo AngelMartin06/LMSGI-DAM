@@ -1,0 +1,83 @@
+body {
+    font-family: Georgia, serif;
+    margin: 30px;
+    background: #f7f7f7;
+}
+
+.panel124 {
+    width: 350px;
+    background: white;
+    padding: 10px 8px 14px 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin: 4px 0 12px 0;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10px;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    padding: 4px 2px;
+    font-size: 9px;
+}
+
+td {
+    padding: 6px 4px;
+}
+
+.nombre {
+    width: 90px;
+    font-weight: bold;
+}
+
+.nombre span {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.logo {
+    width: 58px;
+    height: 52px;
+    margin: 0 auto;
+    border: 1px solid #888;
+}
+
+.fb { background: linear-gradient(135deg, #0f55b6, #7aa0d8); }
+.flickr { background: linear-gradient(135deg, #ff2aa2, #4bc1ff); }
+.vimeo { background: linear-gradient(135deg, #54c3f1, #a9e6fb); }
+.yt { background: linear-gradient(135deg, #c70000, #ff6767); }
+
+.check {
+    width: 44px;
+    font-size: 14px;
+}
+
+.valoracion {
+    width: 92px;
+    color: #e0a400;
+    font-size: 13px;
+}
+
+.valoracion small {
+    display: block;
+    color: #333;
+    font-size: 9px;
+    margin-top: 4px;
+}
+
+a {
+    font-size: 9px;
+}

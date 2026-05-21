@@ -1,0 +1,70 @@
+body {
+    font-family: serif;
+    margin: 16px 12px;
+}
+
+.columnas {
+    display: flex;
+    gap: 44px;
+}
+
+.lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 220px;
+}
+
+.lista li {
+    background-color: #ddd;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 44px;
+    height: 44px;
+    position: relative;
+    padding-left: 56px;
+}
+
+.lista span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+}
+
+.azul span {
+    background-color: #86d3f5;
+}
+
+.roja span {
+    background-color: #ff8a80;
+    border-radius: 0;
+    width: 28px;
+    height: 34px;
+    line-height: 34px;
+}
+
+.roja li {
+    padding-left: 48px;
+}
+
+.roja span::after {
+    content: "";
+    position: absolute;
+    right: -7px;
+    top: 11px;
+    border-width: 6px 0 6px 7px;
+    border-style: solid;
+    border-color: transparent transparent transparent #ff8a80;
+}
+
+.sub {
+    margin-left: 28px;
+    width: 192px;
+}

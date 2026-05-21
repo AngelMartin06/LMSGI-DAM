@@ -1,0 +1,17 @@
+body{background:#e6e6e6;font-family:Arial;}
+h2{text-align:center;color:red;}
+
+.grid{
+  width:600px;
+  margin:20px auto;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+}
+
+.grid div{
+  background:green;
+  color:white;
+  border:1px solid black;
+  text-align:center;
+  padding:10px;
+}

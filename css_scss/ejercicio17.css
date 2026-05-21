@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+/* título */
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* división con ancho */
+.width p {
+    width: 250px;
+    background-color: yellow;
+    padding: 5px;
+}
+
+/* párrafo con altura */
+.height {
+    height: 150px;
+    background-color: #7ce7ea !important;
+}

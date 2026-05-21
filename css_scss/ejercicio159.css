@@ -1,0 +1,23 @@
+body{
+    background:#e6e6e6;
+    font-family:Arial;
+}
+
+h2{
+    text-align:center;
+    color:red;
+}
+
+.contenedor{
+    width:600px;
+    margin:20px auto;
+    border:2px solid black;
+}
+
+.contenedor div{
+    background:green;
+    color:white;
+    text-align:center;
+    padding:10px;
+    border-bottom:1px solid black;
+}

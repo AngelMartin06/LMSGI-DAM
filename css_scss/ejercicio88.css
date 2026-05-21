@@ -1,0 +1,54 @@
+body {
+    font-family: serif;
+    margin: 20px;
+}
+
+.marco {
+    width: 285px;
+}
+
+.foto {
+    width: 105px;
+    height: 105px;
+    background-color: #d9d9d9;
+    border: 1px solid #888;
+    box-shadow: 4px 4px 2px #bdbdbd;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.foto::before,
+.foto::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.foto::before {
+    background: linear-gradient(to top right, transparent 49%, #555 50%, transparent 51%);
+}
+
+.foto::after {
+    background: linear-gradient(to bottom right, transparent 49%, #555 50%, transparent 51%);
+}
+
+.texto {
+    width: 250px;
+    background-color: white;
+    box-shadow: 4px 4px 2px #bdbdbd;
+    padding: 10px 10px 14px 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0 0 12px 0;
+}
+
+p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.3;
+}

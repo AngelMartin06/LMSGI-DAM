@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+}
+
+.grid {
+    width: 500px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 2px;
+}
+
+.celda {
+    background-color: #748795;
+
+    color: white;
+
+    padding: 35px;
+
+    font-size: 28px;
+}

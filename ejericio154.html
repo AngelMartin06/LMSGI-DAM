@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 154</title>
+    <link rel="stylesheet" href="css_scss/css-ejercicio154.css">
+</head>
+<body>
+
+
+<div class="contenedor">
+
+<h1>Formulario de alta</h1>
+
+<form>
+
+<ul class="formulario">
+
+    <!-- NOMBRE -->
+    <li>
+        <label>Nombre y apellidos <span>*</span></label>
+        <input type="text" placeholder="Nombre">
+        <input type="text" placeholder="Primer apellido">
+        <input type="text" placeholder="Segundo apellido">
+    </li>
+
+    <!-- DIRECCIÓN -->
+    <li class="direccion">
+        <label>Dirección <span>*</span></label>
+        <input type="text" placeholder="Calle, número, piso, puerta">
+        
+        <div class="fila">
+            <input type="text" placeholder="Código postal">
+            <input type="text" placeholder="Municipio">
+        </div>
+
+        <div class="fila">
+            <select>
+                <option>Provincia</option>
+            </select>
+            <select>
+                <option>País</option>
+            </select>
+        </div>
+
+        <p class="ayuda">
+            El código postal es imprescindible para poder recibir los pedidos
+        </p>
+    </li>
+
+    <!-- EMAIL -->
+    <li>
+        <label>Email</label>
+        <input type="email">
+    </li>
+
+    <!-- TELÉFONO -->
+    <li>
+        <label>Teléfono <span>*</span></label>
+        <div class="fila">
+            <input type="text" placeholder="Fijo">
+            <input type="text" placeholder="Móvil">
+        </div>
+    </li>
+
+</ul>
+
+<div class="boton">
+    <button type="submit">Darme de alta →</button>
+</div>
+
+</form>
+
+</div>
+
+</body>
+</html>

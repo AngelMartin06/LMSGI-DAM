@@ -1,0 +1,64 @@
+body {
+    background-color: #e6e6e6;
+    font-family: Arial, sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    color: red;
+}
+
+/* Fondo negro exterior */
+.fondo-negro {
+    background-color: black;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+/* Marco amarillo */
+.contenedor {
+    background-color: #f4d35e;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Columnas */
+.columna {
+    width: 40%;
+    background-color: #eee;
+    padding: 15px;
+}
+
+.columna h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Preguntas */
+.pregunta {
+    background-color: #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.pregunta p {
+    font-weight: bold;
+}
+
+.pregunta label {
+    display: block;
+    margin-left: 10px;
+}
+
+/* Colores corrección */
+.correcta {
+    background-color: #a8dadc;
+}
+
+.incorrecta {
+    background-color: #f25f5c;
+    color: white;
+}

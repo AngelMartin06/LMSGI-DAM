@@ -1,0 +1,23 @@
+body{background:#e6e6e6;font-family:Arial;}
+h2{text-align:center;color:red;}
+
+.container{
+  width:900px;
+  margin:20px auto;
+  display:flex;
+  background:#555;
+  padding:20px;
+}
+
+.container div{
+  background:#ff4500;
+  color:white;
+  padding:15px;
+  margin:5px;
+}
+
+.flex-start{justify-content:flex-start;}
+.flex-end{justify-content:flex-end;}
+.center{justify-content:center;}
+.space-between{justify-content:space-between;}
+.space-around{justify-content:space-around;}

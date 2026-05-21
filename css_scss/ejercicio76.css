@@ -1,0 +1,81 @@
+body {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 700px;
+    margin: 20px auto;
+    color: black;
+}
+
+#titulo {
+    color: teal;
+    font-size: 42px;
+}
+
+#subtitulo {
+    color: blue;
+    font-size: 32px;
+}
+
+strong {
+    color: red;
+}
+
+a {
+    color: red;
+}
+
+em {
+    color: blue;
+}
+
+.especial {
+    color: orange;
+}
+
+#especial {
+    color: fuchsia;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 420px;
+}
+
+caption {
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 6px 10px;
+}
+
+th {
+    color: orange;
+    font-weight: bold;
+}
+
+td em {
+    color: green;
+}
+
+td strong {
+    color: orange;
+}
+
+#adicional p {
+    color: olive;
+}
+
+#adicional #especial {
+    color: fuchsia;
+    font-weight: bold;
+}
+
+#adicional a {
+    color: green;
+}

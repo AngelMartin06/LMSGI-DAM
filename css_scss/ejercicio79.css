@@ -1,0 +1,28 @@
+body {
+    font-family: serif;
+    margin: 20px;
+}
+
+a {
+    display: block;
+    margin-bottom: 28px;
+}
+
+.rss {
+    color: #d66a00;
+    text-decoration: none;
+    padding-left: 18px;
+    background-image: linear-gradient(135deg, #ffb36b 0%, #ff7a00 100%);
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.pdf {
+    color: blue;
+    padding-left: 18px;
+    background-image: linear-gradient(135deg, #f4b1b1 0%, #e14a4a 100%);
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}

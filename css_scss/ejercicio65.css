@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+}
+
+.grid {
+    width: 700px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 2fr;
+
+    gap: 2px;
+}
+
+.celda {
+    background-color: #748795;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 35px;
+
+    font-size: 28px;
+}
+
+/* celda inferior */
+.celda5 {
+    grid-column: span 2;
+}

@@ -1,0 +1,38 @@
+body {
+    font-family: serif;
+    margin: 20px;
+}
+
+.lista100 {
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    width: 230px;
+    border: 1px solid #ff9f87;
+}
+
+.lista100 li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lista100 li:last-child {
+    margin-bottom: 0;
+}
+
+.lista100 span {
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #ffae99;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}

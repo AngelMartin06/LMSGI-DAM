@@ -1,0 +1,24 @@
+body{background:#e6e6e6;font-family:Arial;}
+
+
+.layout{
+  width:600px;
+  margin:30px auto;
+  display:grid;
+  grid-template-areas:
+  "header header"
+  "nav nav"
+  "aside section"
+  "footer footer";
+  gap:10px;
+}
+
+header{grid-area:header;background:#26c6da;}
+nav{grid-area:nav;background:#4caf50;}
+aside{grid-area:aside;background:#66bb6a;}
+section{grid-area:section;background:#1565c0;color:white;}
+footer{grid-area:footer;background:#26a69a;}
+
+.layout > *{
+  display:flex;justify-content:center;align-items:center;
+}

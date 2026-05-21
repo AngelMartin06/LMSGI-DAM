@@ -1,0 +1,53 @@
+body {
+    font-family: Georgia, serif;
+    background-color: white;
+    padding: 40px;
+}
+
+.faq {
+    width: 850px;
+    margin: auto;
+    border: 1px solid #555;
+}
+
+.item {
+    position: relative;
+    padding: 30px 70px 30px 40px;
+    border-bottom: 1px solid #555;
+    min-height: 55px;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.item p {
+    margin: 0;
+    font-size: 22px;
+}
+
+.item small {
+    display: block;
+    margin-top: 25px;
+    width: 480px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.item span {
+    position: absolute;
+    right: 35px;
+    top: 30px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid teal;
+    border-radius: 50%;
+    color: teal;
+    text-align: center;
+    line-height: 18px;
+    font-size: 16px;
+}
+
+.abierto {
+    min-height: 170px;
+}

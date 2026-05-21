@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+    padding: 20px;
+}
+
+/* Arial Black */
+.p1 {
+    font-family: Arial Black;
+    font-size: 28px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+/* Comic Sans */
+.p2 {
+    font-family: "Comic Sans MS";
+    font-size: 22px;
+    color: seagreen;
+    font-weight: bold;
+}
+
+/* Garamond */
+.p3 {
+    font-family: Garamond;
+    font-size: 28px;
+    color: turquoise;
+    font-weight: bold;
+}
+
+/* Impact */
+.p4 {
+    font-family: Impact;
+    font-size: 24px;
+    color: lavender;
+    font-weight: bold;
+}
+
+/* Verdana */
+.p5 {
+    font-family: Verdana;
+    font-size: 28px;
+    color: fuchsia;
+}
+
+/* Courier */
+.p6 {
+    font-family: "Courier New";
+    font-size: 20px;
+    color: violet;
+}
+
+/* Lucida Console */
+.p7 {
+    font-family: "Lucida Console";
+    font-size: 24px;
+    color: slategray;
+}
+
+/* Monotype Corsiva */
+.p8 {
+    font-family: "Monotype Corsiva";
+    font-size: 28px;
+    color: brown;
+    font-style: italic;
+}

@@ -1,0 +1,138 @@
+body {
+    font-family: serif;
+    margin: 14px;
+}
+
+.fila {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+    align-items: flex-start;
+}
+
+.caja {
+    border: 1px solid #d7d7d7;
+    padding: 8px 10px;
+    min-height: 92px;
+    box-sizing: border-box;
+}
+
+.caja ul,
+.caja ol {
+    margin: 0;
+    padding-left: 28px;
+    font-size: 18px;
+}
+
+.caja li {
+    margin-bottom: 4px;
+}
+
+.fila:first-child .caja {
+    width: 210px;
+}
+
+.ancha {
+    width: 285px;
+}
+
+.armenia-caja {
+    width: 195px;
+}
+
+.decimal-caja {
+    width: 360px;
+}
+
+.greek {
+    list-style: none;
+    padding-left: 28px;
+}
+
+.greek li {
+    position: relative;
+}
+
+.greek li:nth-child(1)::before {
+    content: "α. ";
+    position: absolute;
+    left: -26px;
+}
+
+.greek li:nth-child(2)::before {
+    content: "β. ";
+    position: absolute;
+    left: -26px;
+}
+
+.greek li:nth-child(3)::before {
+    content: "γ. ";
+    position: absolute;
+    left: -26px;
+}
+
+.upperlatin {
+    list-style-type: upper-latin;
+}
+
+.lowerlatin {
+    list-style-type: lower-latin;
+}
+
+.upperalpha {
+    list-style-type: upper-alpha;
+}
+
+.decimalzero {
+    list-style: none;
+    padding-left: 34px;
+}
+
+.decimalzero li {
+    position: relative;
+}
+
+.decimalzero li:nth-child(1)::before {
+    content: "01. ";
+    position: absolute;
+    left: -34px;
+}
+
+.decimalzero li:nth-child(2)::before {
+    content: "02. ";
+    position: absolute;
+    left: -34px;
+}
+
+.decimalzero li:nth-child(3)::before {
+    content: "03. ";
+    position: absolute;
+    left: -34px;
+}
+
+.armenia {
+    list-style: none;
+    padding-left: 34px;
+}
+
+.armenia li {
+    position: relative;
+}
+
+.armenia li:nth-child(1)::before {
+    content: "Ա. ";
+    position: absolute;
+    left: -30px;
+}
+
+.armenia li:nth-child(2)::before {
+    content: "Բ. ";
+    position: absolute;
+    left: -30px;
+}
+
+.armenia li:nth-child(3)::before {
+    content: "Գ. ";
+    position: absolute;
+    left: -30px;
+}

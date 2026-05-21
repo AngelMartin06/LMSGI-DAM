@@ -1,0 +1,14 @@
+body {
+    font-family: serif;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 28px;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 4px;
+}

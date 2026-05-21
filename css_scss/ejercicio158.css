@@ -1,0 +1,84 @@
+body {
+    background-color: #e6e6e6;
+    font-family: Arial, sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    color: red;
+}
+
+/* Marco exterior */
+.marco {
+    width: 900px;
+    margin: 30px auto;
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Grid principal */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 120px 150px 120px;
+    gap: 10px;
+}
+
+/* Colores */
+.rojo1, .rojo2, .rojo3 {
+    background-color: #f44336;
+}
+
+.turquesa1, .turquesa2 {
+    background-color: #3bb3b8;
+}
+
+.beige1, .beige2 {
+    background-color: #c9a96a;
+}
+
+.gris1, .gris2 {
+    background-color: #d9d9d9;
+}
+
+/* Posicionamiento específico */
+.rojo1 {
+    grid-row: 1 / span 2;
+    grid-column: 1;
+}
+
+.turquesa1 {
+    grid-column: 2;
+}
+
+.beige1 {
+    grid-column: 3 / span 2;
+}
+
+.gris1 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.beige2 {
+    grid-column: 2;
+}
+
+.gris2 {
+    grid-column: 3;
+}
+
+.rojo2 {
+    grid-column: 4;
+    grid-row: 2 / span 2;
+}
+
+.rojo3 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.turquesa2 {
+    grid-column: 3;
+    grid-row: 3;
+}

@@ -1,0 +1,21 @@
+body{background:#e6e6e6;font-family:Arial;}
+h2{text-align:center;color:red;}
+
+.contenedor{
+  width:800px;
+  margin:30px auto;
+  display:grid;
+  grid-template-columns:2fr 1fr;
+  grid-template-rows:200px 120px;
+  gap:15px;
+}
+
+.contenedor div{
+  background:#e2c59c;
+  padding:10px;
+}
+
+.contenedor div:nth-child(4),
+.contenedor div:nth-child(5){
+  grid-column:1/3;
+}

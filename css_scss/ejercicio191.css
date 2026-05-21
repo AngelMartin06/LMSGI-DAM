@@ -1,0 +1,24 @@
+body{background:#e6e6e6;font-family:Arial;}
+h2{text-align:center;color:red;}
+
+.box{
+  width:800px;
+  margin:20px auto;
+  display:flex;
+  background:#1e1e73;
+  padding:20px;
+}
+
+.box div{
+  background:#4f79d6;
+  color:white;
+  padding:20px;
+  margin:5px;
+}
+
+.center{justify-content:center;}
+.flex-end{justify-content:flex-end;}
+.flex-start{justify-content:flex-start;}
+.space-around{justify-content:space-around;}
+.space-between{justify-content:space-between;}
+.space-evenly{justify-content:space-evenly;}

@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+/* título */
+h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* primera caja */
+.caja1 {
+    width: 1000px;
+    background-color: #eef9fb;
+
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+
+    margin-bottom: 30px;
+}
+
+/* segunda caja */
+.caja2 {
+    width: 1000px;
+    background-color: #9cc79c;
+
+    padding: 50px 30px 10px 40px;
+}

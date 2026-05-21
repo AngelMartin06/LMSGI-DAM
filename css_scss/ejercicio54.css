@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 30px;
+}
+
+/* contenedor */
+.contenedor {
+    width: 1000px;
+    margin: auto;
+}
+
+/* cabecera */
+header {
+    background-color: purple;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    font-size: 32px;
+    font-weight: bold;
+
+    margin-bottom: 15px;
+}
+
+/* contenido principal */
+main {
+    display: flex;
+    gap: 15px;
+}
+
+/* tarjetas */
+.card {
+    background-color: #17e5ef;
+
+    padding: 15px;
+
+    flex: 1;
+}
+
+/* tarjeta grande */
+.grande {
+    flex: 1.5;
+}
+
+/* títulos */
+h2 {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+/* texto */
+p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* botones */
+.botones {
+    display: flex;
+    gap: 10px;
+
+    margin-bottom: 10px;
+}
+
+button {
+    flex: 1;
+
+    padding: 10px;
+
+    border: none;
+
+    background-color: #f2f2f2;
+
+    cursor: pointer;
+}
+
+/* botón grande */
+.blush {
+    width: 100%;
+
+    margin-bottom: 15px;
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: serif;
+    margin: 30px 35px;
+}
+
+a {
+    display: block;
+    margin-bottom: 34px;
+    font-size: 16px;
+}
+
+.enlace1:link {
+    color: red;
+}
+
+.enlace2:link {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 6px;
+    margin-bottom: 34px;
+}
+
+.enlace3:link {
+    color: #d9d9d9;
+}
+
+.enlace4:visited {
+    color: red;
+}
+
+.enlace4:link {
+    color: red;
+}
+
+.enlace5:hover {
+    color: red;
+}

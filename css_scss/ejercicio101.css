@@ -1,0 +1,41 @@
+body {
+    font-family: serif;
+    margin: 16px;
+}
+
+.lista101 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 245px;
+}
+
+.lista101 li {
+    position: relative;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    padding-left: 36px;
+    border: 1px solid #ffb19c;
+    border-radius: 14px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.lista101 li:first-child {
+    background-color: #f7b29e;
+}
+
+.lista101 span {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f7b29e;
+    color: white;
+    font-size: 12px;
+}

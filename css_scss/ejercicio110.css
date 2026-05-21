@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px 0 0 60px;
+}
+
+h1 {
+    margin: 0 0 16px 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.menus110 {
+    display: flex;
+    gap: 16px;
+}
+
+.menu110 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 148px;
+}
+
+.menu110 li {
+    border: 2px solid #1826b2;
+    border-bottom: none;
+}
+
+.menu110 li:last-child {
+    border-bottom: 2px solid #1826b2;
+}
+
+.menu110 a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #9a5b00;
+    background: #fff200;
+    font-size: 11px;
+    padding: 8px 6px;
+}
+
+.sombra {
+    box-shadow: 4px 4px 0 #bfbfbf;
+}

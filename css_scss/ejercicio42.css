@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+/* contenedor gris */
+.contenedor {
+    width: 900px;
+    height: 500px;
+
+    background-color: lightgray;
+
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+/* estilos generales */
+.caja1,
+.caja2,
+.caja3,
+.caja4 {
+    width: 180px;
+    height: 350px;
+
+    float: left;
+
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* colores */
+.caja1 {
+    background-color: green;
+}
+
+.caja2 {
+    background-color: yellow;
+}
+
+.caja3 {
+    background-color: red;
+}
+
+.caja4 {
+    background-color: blue;
+}

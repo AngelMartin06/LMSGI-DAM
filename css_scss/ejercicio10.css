@@ -1,0 +1,22 @@
+body {
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+ul {
+    color: olive;
+}
+
+a {
+    color: orange;
+}
+
+a:hover {
+    color: red;
+}

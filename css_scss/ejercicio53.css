@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+}
+
+/* contenedor principal */
+.contenedor {
+    width: 1000px;
+
+    border: 2px solid black;
+
+    padding: 20px;
+}
+
+/* título */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* primera fila */
+.fila1 {
+    background-color: #a8ef1d;
+
+    padding: 15px;
+
+    margin-bottom: 25px;
+}
+
+/* segunda fila */
+.fila2 {
+    background-color: #79b9bb;
+
+    padding: 15px;
+
+    width: fit-content;
+}
+
+/* elementos primera fila */
+.item {
+    display: inline-block;
+
+    border: 2px solid black;
+
+    padding: 10px;
+
+    background-color: #bdfd55;
+}
+
+/* elementos segunda fila */
+.item2 {
+    display: inline-block;
+
+    border: 2px solid black;
+
+    padding: 10px;
+
+    background-color: #8ecfd1;
+}

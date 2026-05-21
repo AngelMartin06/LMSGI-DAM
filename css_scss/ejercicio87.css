@@ -1,0 +1,13 @@
+body {
+    font-family: serif;
+    margin: 20px;
+}
+
+li {
+    font-weight: bold;
+}
+
+a {
+    color: red;
+    background-color: #f2c5c5;
+}

@@ -1,24 +1,142 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina web</title>
-    <meta name="descripcion" content="esto es lo que aparece en la descripcion en el navegador">
-    <meta name="keywords" content="ejmplo, plantilla, hmtl, css, jaca script, etc">
-    <meta name="author" content="Angel">
-    <meta name="application-name" content="ejercicicio72.html">
-    <meta name="generator" content="VSCode">
-    <link rel="icon" href="./assets/img/ra.png">
+    <title>Document</title>
+    <link rel="stylesheet" href="css_scss/ejercicio72.css">
 </head>
+
 <body>
-    <h2>Lista Anidadas</h2>
-    <ol><li>Mamiferos</li>
-    <ol style="list-style-type: circle;"><li >gato</li>
-    <li>Perro</li>
-    <li>Cerdo</li></ol>
-    <li>Pajaros</li><ol style="list-style-type: circle;"><li>Paloma</li>
-    <li>Cerdo</li></ol><li>Peces</li> <ol style="list-style-type: circle;"><li>Tiburon</li>
-    <li>Sardina</li> <li>Atun</li></ol></ol>
+
+<div class="contenedor">
+
+    <!-- cabecera -->
+    <header>
+
+        <h1>Logotipo</h1>
+
+        <div class="busqueda">
+            Buscar
+            <input type="text">
+        </div>
+
+    </header>
+
+    <!-- menÃº -->
+    <nav>
+        <a href="#">Lorem</a>
+        <a href="#">Ipsum</a>
+        <a href="#">Dolor</a>
+        <a href="#">Sit amet</a>
+    </nav>
+
+    <!-- contenido -->
+    <main>
+
+        <!-- izquierda -->
+        <aside class="izquierda">
+
+            <div class="box">
+                <h2>Noticias</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+
+                <a href="#">Seguir leyendo...</a>
+            </div>
+
+            <div class="box publicidad">
+                <h2>Publicidad</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reiciendis consequatur.
+                </p>
+
+                <a href="#">Seguir leyendo...</a>
+            </div>
+
+        </aside>
+
+        <!-- centro -->
+        <section class="contenido">
+
+            <article>
+
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+
+                <div class="imagen"></div>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat molestiae quidem explicabo perspiciatis.
+                </p>
+
+                <a href="#">Seguir leyendo...</a>
+
+            </article>
+
+            <article>
+
+                <h2>Vivamus lobortis turpis ac ante fringilla faucibus</h2>
+
+                <div class="imagen"></div>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Illo deserunt similique doloribus.
+                </p>
+
+                <a href="#">Seguir leyendo...</a>
+
+            </article>
+
+        </section>
+
+        <!-- derecha -->
+        <aside class="derecha">
+
+            <div class="box">
+                <h2>Phasellus blandit</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+
+            <div class="box">
+                <h2>Nullam vel turpis</h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+
+                <a href="#">Seguir leyendo...</a>
+            </div>
+
+        </aside>
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+
+        <div>
+            <a href="#">Nulla</a>
+            <a href="#">Pharetra</a>
+            <a href="#">Lectus</a>
+            <a href="#">Ipsum</a>
+        </div>
+
+        <p>Â© Copyright Lorem ipsum</p>
+
+    </footer>
+
+</div>
+
 </body>
+
 </html>

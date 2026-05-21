@@ -1,46 +1,169 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World Wide Web</title>
-    <meta name="descripcion" content="esto es lo que aparece en la descripcion en el navegador">
-    <meta name="keywords" content="ejmplo, plantilla, hmtl, css, jaca script, etc">
-    <meta name="author" content="Angel">
-    <meta name="application-name" content="ejercicio5.html">
-    <meta name="generator" content="VSCode">
-    <link rel="icon" href="./assets/img/ra.png">
+    <title>Ejercicio de selectores</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            font-size: 16px;
+            line-height: 1.5;
+            width: 700px;
+            margin: 20px auto;
+            color: black;
+        }
+
+        #titulo {
+            color: teal;
+            font-size: 42px;
+        }
+
+        #subtitulo {
+            color: blue;
+            font-size: 32px;
+        }
+
+        strong {
+            color: red;
+        }
+
+        a {
+            color: red;
+        }
+
+        em {
+            color: blue;
+        }
+
+        .especial {
+            color: orange;
+        }
+
+        #especial {
+            color: fuchsia;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 20px 0;
+            width: 420px;
+        }
+
+        caption {
+            color: blue;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 6px 10px;
+        }
+
+        th {
+            color: orange;
+            font-weight: bold;
+        }
+
+        td em {
+            color: green;
+        }
+
+        td strong {
+            color: orange;
+        }
+
+        #adicional p {
+            color: olive;
+        }
+
+        #adicional #especial {
+            color: fuchsia;
+            font-weight: bold;
+        }
+
+        #adicional a {
+            color: green;
+        }
+    </style>
 </head>
+
 <body>
-    <table border="1" style="border-collapse: collapse;"><tr ><td style="text-align: center;padding: 15px; background-color: burlywood; ">1</td>
-    <td colspan="2" style="text-align: center;padding: 15px; background-color:rosybrown">2</td>
-    <td style="text-align: center;padding: 15px; background-color: burlywood;">3</td>
-    <td rowspan="5" style="text-align: center;padding: 15px; background-color: aqua;">4</td>
-    </tr>
-<tr>
-    <td style="text-align: center;padding: 15px">5</td>
-    <td style="text-align: center;padding: 15px; background-color: aquamarine;">6</td>
-    <td colspan="2" style="text-align: center;padding: 15px; background-color: bisque;">7</td>
-</tr>
-<tr>
-    <td colspan="3" style="text-align: center;padding: 15px; background-color: brown;">8</td>
-    <td style="text-align: center;padding: 15px">9</td>
-    
-</tr>
-<tr> 
-    <td style="text-align: center;padding: 15px; background-color: chocolate;">10</td>
-    <td style="text-align: center;padding: 15px; background-color: crimson;">11</td>
-    <td style="text-align: center;padding: 15px">12</td>
-    <td style="text-align: center; padding: 15px; background-color: violet; ">13</td>
-    
-    
-</tr>
-<tr> <td style="text-align: center;padding: 15px; background-color: tomato;">14</td>
-<td colspan="2"  rowspan="3" style="text-align: center;padding: 15px; background-color: sandybrown;">15</td>
-<td style="text-align: center;padding: 15px">16</td>
-</tr>
-<tr><td style="text-align: center;padding: 15px; background-color: seagreen;" >17</td>
-<td colspan="2" style="text-align: center;padding: 15px; background-color: seagreen;" >18</td></tr>
-</table>
+
+    <h1 id="titulo">Tecnología y creatividad digital</h1>
+
+    <p>
+        El desarrollo de páginas web combina organización, paciencia y práctica.
+        <strong>Una estructura clara</strong> ayuda a que el contenido sea más fácil
+        de entender y también mejora la apariencia del sitio.
+        <span class="destacado">Cada elemento visual tiene una función dentro del diseño.</span>
+    </p>
+
+    <h2 id="subtitulo">Cómo mejorar la presentación de una página</h2>
+
+    <p>
+        Elegir bien los colores y los tamaños de letra puede cambiar por completo
+        la forma en la que se percibe un documento.
+        <a href="#">Los enlaces destacados</a>, <em>los fragmentos importantes</em> y
+        <span class="especial">las palabras resaltadas</span> hacen que la lectura
+        sea más cómoda. Además, <span class="especial">una buena distribución</span>
+        hace que todo se vea más limpio.
+    </p>
+
+    <table summary="Ejemplo de tabla con contenido personalizado">
+        <caption>Datos de ejemplo</caption>
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col" class="especial">Bloque A</th>
+                <th scope="col" class="especial">Bloque B</th>
+            </tr>
+        </thead>
+
+        <tfoot>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Bloque A</th>
+                <th scope="col">Bloque B</th>
+            </tr>
+        </tfoot>
+
+        <tbody>
+            <tr>
+                <th scope="row" class="especial">Fila uno</th>
+                <td>Texto sencillo</td>
+                <td>Palabra con <em>detalle</em></td>
+            </tr>
+            <tr>
+                <th scope="row">Fila dos</th>
+                <td>Dato con <strong>importancia</strong></td>
+                <td>Información distinta</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div id="adicional">
+        <p>
+            Trabajar con selectores permite cambiar el estilo de zonas concretas
+            sin afectar a todo el documento. <span>Esto resulta útil</span>
+            cuando una página tiene varias partes y cada una necesita una apariencia diferente.
+        </p>
+
+        <p>
+            También conviene practicar cambiando textos, títulos y colores.
+            <span id="especial">Probar diferentes combinaciones</span>
+            ayuda a comprender mejor cómo se aplican los estilos dentro del código.
+        </p>
+
+        <p>
+            Poco a poco, los conceptos dejan de parecer difíciles.
+            <a href="#">La práctica constante</a> permite avanzar con más seguridad
+            y conseguir páginas mejor ordenadas y mucho más claras.
+        </p>
+    </div>
+
 </body>
+
 </html>

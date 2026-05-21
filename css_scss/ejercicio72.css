@@ -1,0 +1,139 @@
+body {
+    font-family: Georgia, serif;
+
+    background-color: #f2f2f2;
+
+    padding: 30px;
+}
+
+/* contenedor */
+.contenedor {
+    width: 1100px;
+
+    margin: auto;
+
+    background-color: white;
+
+    padding: 10px;
+}
+
+/* cabecera */
+header {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+header h1 {
+    color: #d79a5b;
+
+    font-size: 50px;
+}
+
+.busqueda input {
+    width: 140px;
+}
+
+/* menú */
+nav {
+    background-color: #1f49b6;
+
+    padding: 10px;
+
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+
+    margin-right: 20px;
+
+    text-decoration: none;
+}
+
+/* estructura principal */
+main {
+    display: flex;
+
+    gap: 20px;
+}
+
+/* columnas */
+.izquierda {
+    width: 22%;
+}
+
+.contenido {
+    width: 50%;
+}
+
+.derecha {
+    width: 22%;
+}
+
+/* cajas */
+.box {
+    border: 2px solid orange;
+
+    padding: 15px;
+
+    margin-bottom: 20px;
+
+    background-color: #fff7ef;
+}
+
+/* publicidad */
+.publicidad {
+    background-color: #fff2b8;
+}
+
+/* artículos */
+article {
+    margin-bottom: 40px;
+}
+
+article h2 {
+    font-size: 38px;
+
+    margin-bottom: 15px;
+}
+
+/* imagen simulada */
+.imagen {
+    width: 120px;
+    height: 120px;
+
+    border: 2px solid gray;
+
+    float: left;
+
+    margin-right: 15px;
+
+    background-color: #eee;
+}
+
+/* enlaces */
+a {
+    color: blue;
+}
+
+/* footer */
+footer {
+    border-top: 1px solid gray;
+
+    margin-top: 20px;
+
+    padding-top: 10px;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+footer a {
+    margin-right: 15px;
+}

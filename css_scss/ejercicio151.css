@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.titulo-principal {
+    color: #cc0000; /* Rojo oscuro */
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.contenedor-formulario {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #7FFF00; /* Verde lima brillante */
+    border: 3px solid #ff6600; /* Borde naranja/rojo */
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.header-formulario {
+    background-color: #6666cc; /* Azul/púrpura */
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    background-color: #cccccc; /* Gris claro */
+    border: 1px solid #666;
+    padding: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+textarea {
+    resize: vertical;
+    font-family: Arial, sans-serif;
+}
+
+.checkbox-container {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin: 0;
+    width: auto;
+}
+
+.checkbox-container label {
+    margin: 0;
+    font-size: 12px;
+    display: inline;
+}
+.btn-enviar {
+    display: block;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btn-borrar {
+    display: block;
+    width: 100%;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}

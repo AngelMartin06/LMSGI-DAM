@@ -1,0 +1,38 @@
+body {
+    font-family: Georgia, serif;
+    margin: 44px 0 0 52px;
+}
+
+h2 {
+    margin: 0 0 8px 0;
+    text-align: center;
+    font-size: 12px;
+    width: 315px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 315px;
+}
+
+th,
+td {
+    border: 1px solid white;
+    text-align: center;
+    padding: 6px 10px;
+    font-size: 12px;
+}
+
+th {
+    background: #6d95ec;
+    color: white;
+}
+
+tbody td:first-child {
+    background: #6d95ec;
+    color: #ecff44;
+}
+
+tbody td:not(:first-child) {
+    background: #ef9160;
+}

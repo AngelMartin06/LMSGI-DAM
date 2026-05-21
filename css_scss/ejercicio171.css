@@ -1,0 +1,12 @@
+.layout{
+  width:700px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+}
+
+header{grid-column:1/4;background:green;}
+footer{grid-column:1/4;background:blue;}
+section:nth-child(2){background:#d9534f;}
+section:nth-child(3){background:#f0ad4e;}
+section:nth-child(4){background:#d98ca3;}

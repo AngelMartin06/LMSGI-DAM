@@ -1,40 +1,96 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World Wide Web</title>
-    <meta name="descripcion" content="esto es lo que aparece en la descripcion en el navegador">
-    <meta name="keywords" content="ejmplo, plantilla, hmtl, css, jaca script, etc">
-    <meta name="author" content="Angel">
-    <meta name="application-name" content="ejercicio4.html">
-    <meta name="generator" content="VSCode">
-    <link rel="icon" href="./assets/img/ra.png">
+    <meta charset="utf-8">
+    <title>Ejercicio selectores 2 CSS</title>
+    <style type="text/css">
+        * {
+            font-family: "Open Sans", Arial, sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #494949;
+        }
+
+        p {
+            color: #666;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: 22px;
+            color: #DD1E64;
+        }
+
+        .producto {
+            background-color: pink;
+        }
+
+        .descripcion {
+            font-size: 16px;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        h1 span.especial {
+            font-weight: bold;
+            color: yellowgreen;
+            background-color: black;
+        }
+
+        #destacado img {
+            width: 100%;
+        }
+
+        #anuncio {
+            width: 60%;
+            margin: auto;
+            background-color: #DD1E64;
+        }
+
+        #anuncio p {
+            color: white;
+        }
+    </style>
 </head>
+
 <body>
 
-    <h1>World Wide Web</h1>
-    <p>
-        En informática, la <strong><i> World Wide Web </i></strong> (WWW) o Red informática
-        mundial comúnmente conocida como la web, es un sistema de distribución de documentos de
-        hipertexto o hipermedios interconectados y accesibles vía Internet. Con un navegador web, un
-        usuario visualiza sitios web compuestos de páginas web que pueden contener texto, imágenes,
-        vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces.
-    </p>
-    <h2>Historia</h2>
-    <p>
-        UD 3 Utilización de Lenguajes de Marcas en Entorno Web (HTML 5) Página 7 de 35
-        Juan Sevillano Hernández
-        La web se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés Tim Berners-Lee
-        con la ayuda del belga Robert Cailliau mientras trabajaban en el CERN en Ginebra, Suiza, y
-        publicado en 1992. <br> <br>
+    <div class="producto">
+        <h1><span class="especial">El trozo</span> de texto estándar de Lorem Ipsum</h1>
+        <p class="descripcion">Usado desde el año 1500 es <a href="#">reproducido debajo</a> para aquellos interesados.
+        </p>
+        <p>Las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" por Cicerón son también reproducidas en su
+            forma original exacta, acompañadas por versiones en Inglés de la traducción realizada en 1914 por H.
+            Rackham.</p>
+        <p>Usa un diccionario de mas de 200 palabras provenientes del latín, combinadas con estructuras muy útiles de
+            sentencias, para generar texto de que <span class="especial">Lorem Ipsum</span> parezca razonable.</p>
+    </div>
 
-        Desde entonces, Berners-Lee ha jugado un papel activo guiando el desarrollo de estándares
-        web (como los lenguajes de marcado con los que se crean las páginas web), y en los últimos
-        años ha abogado por su visión de una web semántica.
-        <br> <br>
-        Fuente: <i>Wikipedia</i>
-    </p>
+    <div id="anuncio">
+        <p>Las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" por Cicerón son también reproducidas en su
+            forma original exacta, acompañadas por versiones en Inglés de la traducción realizada en 1914 por H.
+            Rackham.</p>
+        <p>Las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" por Cicerón son también reproducidas en su
+            forma original exacta, acompañadas por versiones en Inglés de la traducción realizada en 1914 por H.
+            Rackham.</p>
+    </div>
+
+    <div class="producto">
+        <h1><span class="especial">El trozo</span> de texto estándar de Lorem Ipsum</h1>
+        <p class="descripcion">Usado desde el año 1500 es <a href="#">reproducido debajo</a> para aquellos interesados.
+        </p>
+        <p>Las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" por Cicerón son también reproducidas en su
+            forma original exacta, acompañadas por versiones en Inglés de la traducción realizada en 1914 por H.
+            Rackham.</p>
+        <p>Usa un diccionario de mas de 200 palabras provenientes del latín, combinadas con estructuras muy útiles de
+            sentencias, para generar texto de que <span class="especial">Lorem Ipsum</span> parezca razonable.</p>
+    </div>
+
+    <div id="destacado">
+        <img src="https://raulperez.tieneblog.net/wp-content/uploads/2020/10/hero-people.jpg" alt="">
+    </div>
+
 </body>
 
 </html>

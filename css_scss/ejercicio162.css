@@ -1,0 +1,6 @@
+.grid{
+  grid-template-columns:repeat(4,1fr);
+}
+.grid div:nth-child(1){
+  grid-column:1/3;
+}

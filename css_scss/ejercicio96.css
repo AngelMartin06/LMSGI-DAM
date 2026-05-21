@@ -1,0 +1,21 @@
+body {
+    font-family: serif;
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 2px;
+    color: black;
+}
+
+li::before {
+    content: "❤ ";
+    color: #e63a57;
+    font-size: 22px;
+}

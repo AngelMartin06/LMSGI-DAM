@@ -1,0 +1,41 @@
+body {
+    font-family: Georgia, serif;
+    margin: 20px 0 0 38px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 334px;
+}
+
+th {
+    background: #a40099;
+    color: white;
+    font-size: 11px;
+    padding: 8px 10px;
+    text-align: left;
+    border-right: 1px solid white;
+}
+
+th:last-child {
+    border-right: none;
+}
+
+td {
+    font-size: 11px;
+    padding: 10px 12px;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+}
+
+td:last-child {
+    border-right: none;
+}
+
+tbody tr:nth-child(odd) {
+    background: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background: #e9e9e9;
+}

@@ -1,0 +1,47 @@
+body {
+    font-family: Georgia, serif;
+    margin: 52px 0 0 54px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 372px;
+}
+
+th,
+td {
+    border: 1px solid #f6f6f6;
+    padding: 2px 4px;
+    font-size: 9px;
+    line-height: 1.1;
+}
+
+.titulo th {
+    background: #f6c693;
+    color: #3f2500;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.cabecera th {
+    background: #f4b772;
+    color: #3f2500;
+    text-align: left;
+}
+
+tbody td {
+    background: #cfff90;
+}
+
+tbody td:nth-child(1),
+tbody td:nth-child(2),
+tbody td:nth-child(3) {
+    background: #17b8ec;
+    color: #0b3650;
+}
+
+.sexo {
+    text-align: center;
+    font-size: 12px;
+}

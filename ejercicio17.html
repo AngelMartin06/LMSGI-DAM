@@ -1,26 +1,39 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World Wide Web</title>
-    <meta name="descripcion" content="esto es lo que aparece en la descripcion en el navegador">
-    <meta name="keywords" content="ejmplo, plantilla, hmtl, css, jaca script, etc">
-    <meta name="author" content="Angel">
-    <meta name="application-name" content="ejercicio17.html">
-    <meta name="generator" content="VSCode">
-    <link rel="icon" href="./assets/img/ra.png">
+    <title>Document</title>
+    <link rel="stylesheet" href="css_scss/ejercicio17.css">
 </head>
 <body>
-    <h3>Salto de linea con &LT;BR &gt;</h3>
+    
+<h1>Ancho y alto de caja</h1>
 
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Quae, iste consequuntur nisi autem saepe earum neque, enim itaque quasi voluptate culpa temporibus dolore. <br> Dolor, eaque dignissimos! Obcaecati ex animi ipsam. <br> -------------------------------------------------------------------------------------------------------------
+<p>
+    Los pÃ¡rrafos por defecto no tienen lÃ­mite de ancho y su altura es la necesaria
+    para que aparezca todo el texto.
+</p>
 
+<div class="width">
+
+    <p>
+        Todos los pÃ¡rrafos dentro de esta divisiÃ³n tienen la anchura limitada
+        a 250 pixel, de manera que ya no ocupan todo el ancho de pantalla.
     </p>
 
-    <h3>Salto de linea con &LT; P &gt;</h3>
-    <p>Estaba internandose en lo desconocido</p>
-    <p>Durante todo el trayecto hasta Woodfield no lo dejo de pensaren los aspectos economicos, con el temor de estar cometiendo.</p>
-    
+    <p class="height">
+        Este pÃ¡rrafo ademÃ¡s de una anchura de 250 pixel, tiene una altura
+        de 150 pixel. El tamaÃ±o de la caja estÃ¡ definido por la hoja CSS
+        y no por el contenido.
+    </p>
+
+</div>
+
+<p>
+    El Ãºltimo pÃ¡rrafo tampoco tiene lÃ­mite de ancho y su altura es la necesaria
+    para que aparezca todo el texto.
+</p>
+
 </body>
 </html>

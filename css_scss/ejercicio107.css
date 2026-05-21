@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+.contenedor107 {
+    width: 345px;
+    margin: 20px auto;
+}
+
+.banners107 {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+
+.banner {
+    flex: 1;
+    height: 80px;
+    position: relative;
+    color: #555;
+    overflow: hidden;
+}
+
+.banner.left {
+    background: linear-gradient(to right, #eef4ef 0%, #f7e5d6 100%);
+}
+
+.banner.right {
+    background: linear-gradient(to right, #d6b59a 0%, #dce9d6 100%);
+}
+
+.banner div {
+    position: absolute;
+    left: 8px;
+    top: 12px;
+}
+
+.banner h2 {
+    margin: 0 0 4px 0;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.banner p {
+    margin: 0 0 8px 0;
+    font-size: 8px;
+}
+
+.banner a {
+    display: inline-block;
+    background: #2e8c3f;
+    color: white;
+    text-decoration: none;
+    font-size: 8px;
+    padding: 4px 8px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 16px;
+    color: #444;
+    margin: 0 0 12px 0;
+}
+
+h1 span {
+    color: #8ab343;
+}
+
+.categorias107 {
+    display: flex;
+    gap: 6px;
+}
+
+.cat107 {
+    width: 82px;
+    border: 1px solid #ececec;
+    text-align: center;
+    padding: 8px 4px 6px 4px;
+    box-sizing: border-box;
+}
+
+.cat107 h3 {
+    margin: 0;
+    font-size: 10px;
+    font-weight: normal;
+    color: #333;
+}
+
+.cat107 p {
+    margin: 2px 0 6px 0;
+    font-size: 7px;
+    color: #999;
+}
+
+.imgcat {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 6px;
+}
+
+.verde {
+    background: linear-gradient(135deg, #6fb04f 0%, #c4e37f 100%);
+}
+
+.amarillo {
+    background: linear-gradient(135deg, #ffe15e 0%, #f4b535 100%);
+}
+
+.carne {
+    background: linear-gradient(135deg, #eadbc0 0%, #c08d6c 100%);
+}
+
+.frutas {
+    background: linear-gradient(135deg, #f3c844 0%, #f05b4f 100%);
+}
+
+.cat107 a {
+    display: block;
+    background: #2e8c3f;
+    color: white;
+    text-decoration: none;
+    font-size: 7px;
+    padding: 4px 0;
+}
